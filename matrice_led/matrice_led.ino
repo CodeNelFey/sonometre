@@ -36,7 +36,7 @@ void setup() {
 
 void loop() {
   
-  etat = 3;
+  etat = 1;
 
   while (etat==1)
   {
@@ -60,8 +60,8 @@ void happy() {
 
   i=0;
   j=0;
-  matrix.fillCircle(8 , 7, 4, matrix.Color333(0, 0, 7));
-  matrix.fillCircle(23, 7, 4, matrix.Color333(0, 0, 7));
+  matrix.fillCircle(8 , 7, 4, matrix.Color333(0, 3, 7));
+  matrix.fillCircle(23, 7, 4, matrix.Color333(0, 3, 7));
 
   
   eysdelay = (rand() % 100)*100; 
